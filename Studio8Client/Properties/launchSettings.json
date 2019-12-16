@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Studio8Client": {
+      "commandName": "Project",
+      "commandLineArgs": "4 cube"
+    }
+  }
+}

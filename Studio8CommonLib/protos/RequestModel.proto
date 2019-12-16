@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+service CalcService {
+  rpc Calc (CalcRequest) returns (CalcResult);
+}
+
+message CalcRequest {
+  int32 natural = 1;  
+  string word = 2;  
+}
+
+message CalcResult {    
+  double result = 2;
+  string message = 1;
+}
